@@ -1,2 +1,16 @@
-# Barcode-Decoder
-This project implements a robust pipeline for barcode detection and decoding. It includes preprocessing steps to fix image distortions, crop and straighten the barcode region, and accurately decode the barcode data. The solution is designed to work generically across various test cases without manual adjustments.
+# Barcode Decoding 
+This project focuses on developing a **robust and generic barcode decoding pipeline** using **image processing** and **computer vision (CV)** techniques. 
+
+## 📌 Project Overview
+
+The pipeline handles:
+- Preprocessing distorted or noisy barcode images
+- Handles salt-and-pepper noise, blur, and rotation
+- Cropping and straightening the barcode region
+- Decoding the barcode accurately
+
+It is designed to be **generic and adaptable** to a wide range of test cases without requiring any manual tuning or test-specific conditions.
+
+
+
+
